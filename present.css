@@ -47,9 +47,9 @@ html, body {
             animation: staticFront 700ms ease forwards;
   }
   .present-box.open {
-    /*&>.side.top{
+    &>.side.top{
         opacity: .2;
-    }*/
+    }
     -webkit-animation: zoomIn 1s ease-in forwards;
             animation: zoomIn 1s ease-in forwards;
     transform: rotateX(-103deg) rotateY(-180deg);
@@ -79,7 +79,6 @@ html, body {
     opacity: 0.3;
     width: 0;
   }
-  
   .present-box .present {
     position: absolute;
     width: 200px;

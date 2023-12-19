@@ -45,7 +45,7 @@ function init() {
   
   
   
-  nametag.innerText = to;
+  // nametag.innerText = to;
 }
 
 init();
